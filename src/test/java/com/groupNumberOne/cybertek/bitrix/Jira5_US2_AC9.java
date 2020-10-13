@@ -43,6 +43,8 @@ public class Jira5_US2_AC9 {
         chooseminutes.sendKeys("20");
         WebElement selectButton=driver.findElement(By.xpath("(//span[@class='bx-calendar-button-text'])[1]"));
         selectButton.click();
+        
+        //pull practice
 
     }
 }
